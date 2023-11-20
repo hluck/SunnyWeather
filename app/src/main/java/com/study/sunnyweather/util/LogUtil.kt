@@ -32,25 +32,25 @@ object LogUtil {
 
     fun d(tag: String,msg: String){
         if (currentLogLevel.ordinal <= LEVEL.D.ordinal){
-            Log.v(tag,msg)
+            Log.d(tag,msg)
         }
     }
 
     fun i(tag: String,msg: String){
         if (currentLogLevel.ordinal <= LEVEL.I.ordinal){
-            Log.v(tag,msg)
+            Log.i(tag,msg)
         }
     }
 
     fun w(tag: String,msg: String){
         if (currentLogLevel.ordinal <= LEVEL.W.ordinal){
-            Log.v(tag,msg)
+            Log.w(tag,msg)
         }
     }
 
     fun e(tag: String,msg: String){
         if (currentLogLevel.ordinal <= LEVEL.E.ordinal){
-            Log.v(tag,msg)
+            Log.e(tag,msg)
         }
     }
 }
